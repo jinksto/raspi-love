@@ -3,8 +3,11 @@ Raspi display to display random messages.
 [Pi 4 Touch Screen with Case, 3.5 inch Touchscreen]( https://www.amazon.com/gp/product/B07WQW6H9S/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1 )
 [Pi4 Starter Kit](https://www.amazon.com/gp/product/B07VXBMWQK/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) or any suitable Raspberry Pi
 
-# Install the screen
-1. Image a microSD with the lastest version of Raspbian. 
+# Install Raspbian
+1. Download Raspbian latest desktop https://downloads.raspberrypi.org/raspbian_latest
+1. Burn to card with Raspberry Pi Imager: https://downloads.raspberrypi.org/imager/imager.exe 
+      This is new but seems to work though slower than win32DiskImager. Also, obviates the need to pre-download the image. 
+1. Once burned, insert the card into your RPI, boot, configure networking, etc as you like.  
 1. Connect the raspberry pi to a keyboard, mouse and monitor and configure it to work with your network. 
 1. sudo apt install git
 1. git clone https://github.com/goodtft/LCD-show.git 
